@@ -1,0 +1,14 @@
+development:
+  adapter: mysql
+  encoding: utf8
+  database: step4ward_dev
+  username: root
+  password:
+
+production:
+  adapter: mysql
+  encoding: utf8
+  database: step4ward_production
+  username: root
+  password: njh9x2
+  socket: /var/run/mysqld/mysqld.sock

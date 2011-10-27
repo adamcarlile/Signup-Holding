@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('reset.css');
+
+/*=======BODY======*/
+body
+{
+	background-color: #000000;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', verdana, arial, helvetica, clean, sans-serif;
+	font-size: 62.5%;
+	color:#ffffff;
+	background-image: url(../images/background.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+div.wrapper
+{
+	width: 960px;
+	margin: auto;
+	text-align: center;
+}
+
+/*========HEADER======*/
+
+div.wrapper h1
+{
+	background-image: url(../images/step4ward.png);
+	background-repeat: no-repeat;
+	width: 449px;
+	height: 202px;
+	margin:auto;
+	margin-top: 50px;
+	text-indent: -9000px;
+}
+
+div.wrapper h2
+{
+	font-size: 1.8em;
+	margin-top:10px;
+}
+
+/*===========FORM==========*/
+
+div.content
+{
+	margin-top: 40px;
+}
+
+div.content p
+{
+	margin-bottom: 20px;
+	font-size: 1.2em;
+}
+
+form
+{
+}
+
+form legend
+{
+	display: none;
+}
+
+
+form input.text_field
+{
+	background-image: url(../images/form_field.png);
+	width: 200px;
+	background-position: top left;
+	height:43px;
+	color:#b7b7b7;
+	border: none;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	padding-top: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 1.2em;
+}
+
+form input.text_field:focus
+{
+	color:#333333;
+}
+
+input.register
+{
+	width: 160px;
+	height: 53px;
+	background: url(../images/subscribe.png) no-repeat;
+	background-position: 0px 2px;
+	outline: none;
+	border:none;
+	overflow:hidden;
+	cursor:pointer;
+	color:#ffffff;
+	font-size: 1.4em;
+	margin-top: 0px;
+}
+
+input.register:hover
+{
+	background:url(../images/hover.png) no-repeat;
+	background-position: 0px 3px;
+}
+
+div#errorExplanation, div.notification
+{
+	margin: auto;
+	width: 620px;
+	border:1px solid #d01313;
+	background-color: #801818;
+	text-align: left;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+div#errorExplanation h2
+{
+	font-size: 1.4em;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #d01313;
+}
+
+div#errorExplanation p
+{
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+div#errorExplanation ul
+{
+	margin-left: 20px;
+	list-style: disc;
+	padding-left: 20px;
+	font-size: 1.2em;
+}
+
+div#errorExplanation ul li
+{
+	padding-top:2px;
+	padding-bottom: 2px;
+}
+
+div.fieldWithErrors
+{
+	display: inline;
+}
+
+div.notification
+{
+	border-color: #073b07 !important;
+	background-color: #0a2909 !important;
+	font-size: 1.2em;
+	padding-bottom: 0px !important;
+}
+
+div.notification p
+{	
+	margin:20px;
+}
+
+
+
+
+

@@ -1,0 +1,13 @@
+<%= error_messages_for 'user' %>
+<% unless flash[:notice].blank? %>
+	<div class="notification"><%= flash[:notice] %></div>
+<% end %>
+<p>New website coming soon, sign up below to keep in touch and to recieve our newsletter</p>
+<% form_for @user do |f| %>
+<fieldset>
+	<legend>Register</legend>
+	<%= f.text_field :name, :class => "text_field", :onfocus => "clearDefault(this)", :value => "Your Name" %>
+	<%= f.text_field :email, :class => "text_field", :onfocus => "clearDefault(this)", :value => "Your Email Address" %>
+	<%= submit_tag "Sign Up", :class => "register" %>
+</fieldset>
+<% end %>
